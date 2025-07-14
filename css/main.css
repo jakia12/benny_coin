@@ -127,7 +127,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+.token_right {
+  width: 27%;
+}
 @font-face {
   font-family: "Burger Free";
   font-style: normal;
@@ -654,6 +656,10 @@ h2 {
 @media screen and (max-width: 640px) {
   .about__text {
     font-size: 20px;
+  }
+  .token_right {
+    display: none;
+    width: 27%;
   }
 }
 
